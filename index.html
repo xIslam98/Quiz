@@ -1,0 +1,64 @@
+<html>
+
+<head>
+  <title>Quiz</title>
+  <script src="assets/vendor/jquery.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript" src="src/js-src/materie.js"> </script>
+
+
+</head>
+<header>
+  <button id="Login" class="Login">Login</button>
+  <div id="MyModal" class="modal">
+    <div class="modal-content">
+      <div class="imgcontainer">
+        <img src="img_avatar.png" alt="Avatar" class="avatar">
+      </div>
+      <span class="close">&times;</span>
+      <center><label for="uname"><b>Username</b></label></center>
+      <center><input type="text" placeholder="Inserisci il tuo Username" name="id" required></center>
+      <center> <label for="psw"><b>Password</b></label></center>
+      <center> <input type="password" placeholder="Inserisci la tua password" name="psw" required></center>
+      <center> <button type="submit" class="bottone">Login</button></center>
+    </div>
+  </div>
+</header>
+
+<body>
+
+  <h1>Quiz</h1>
+  <h3>Scegli una materia per il Quiz</h3>
+  <div class="expandable-list">
+    <div class="expandable-item" onclick="toggle(0)">
+      <div class="expandable-header">
+        Materie
+        <div class="expandable-icon">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="expandable-body">
+        <a>
+          Italiano
+        </a>
+        <a>
+          Matematica
+        </a>
+        <a>
+          Geografia
+        </a>
+        <a>
+          Storia
+        </a>
+        <a>
+          Sport
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+</footer>
+
+</html>
